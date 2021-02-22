@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/images/logos.svg" type="image/x-icon">
+    <title>Detail Movie</title>
+</head>
+
+<body>
+    <div class="container p-5">
+        <div class="card shadow-lg rounded p-3">
+            <div class="row mb-4">
+                <div class="col-2">
+                    <a href="/" class="rounded-pill shadow p-2 d-flex align-items-center justify-content-center"
+                        style="text-decoration:none;">
+                        <i class="material-icons mr-2" style="color:black">arrow_back
+                        </i> <span class="" style="color:black">Back</span>
+                    </a>
+                </div>
+                <div class="col-8 detail-show">
+                    <h1 class="text-center title"> DETAIL </h1>
+                </div>
+                <div class="col-2">
+                    <div class="more position-relative" style="cursor: pointer;">
+                        <!-- <i class="material-icons p-2">more_vert</i>
+                        <div class="d-none options card rounded-pill shadow-sm p-1 position-absolute">
+                            <a href="blogs/edit/<%= blog.id %> " class="rounded-circle p-2 mb-2"
+                                style="background:blue;">
+                                <i class="material-icons" style="color:white">create</i>
+                            </a>
+                            <form action="/blogs/<%=blog.id%>?_method=DELETE" method="POST">
+                                <button class="rounded-circle p-2 bg-danger">
+                                    <i class="material-icons" style="color:white">delete</i>
+                                </button>
+                            </form>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 card-img">
+                    <img src="/uploads/images/<%= blog.img %>" class="card-img mx-auto d-block" style="height: min-content; width: min-content;">
+
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="title-card mt-4">
+                    <h1><%- blog.title %></h1>
+                </div>
+                <div class="d-flex rating">
+                    <img src="/images/star.png" alt="" class="star mr-1">
+                    <p><%= blog.rate%></p>
+                </div>
+                <div class="group">
+                    <div class="d-flex">
+                        <p class="font-weight-bold mr-3">Durasi</p>
+                        <p class="font-weight-bold mr-2">:</p>
+                        <p><%= blog.duration%> Menit</p>
+                    </div>
+
+                    <div class="d-flex">
+                        <p class="font-weight-bold mr-3">Tahun</p>
+                        <p class="font-weight-bold mr-2">:</p>
+                        <p><%= blog.year%></p>
+                    </div>
+                    
+                    <div class="d-flex">
+                        <p class="font-weight-bold mr-3">Genre</p>
+                        <p class="font-weight-bold mr-2">:</p>
+                        <p><%= blog.genre%></p>
+                    </div>
+
+                    <div class="d-flex">
+                        <p class="font-weight-bold mr-2">Pemain</p>
+                        <p class="font-weight-bold mr-2">:</p>
+                        <p><%= blog.cast%></p>
+                    </div>
+                </div>
+                <div class="description mt-3">
+                    <h2 class="font-weight-bold">Sinopsis</h2>
+                    <p class="card-text text-justify"> <%- blog.description %></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/index.js"></script>
+
+</body>
+
+</html>

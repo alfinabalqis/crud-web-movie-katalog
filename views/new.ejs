@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+    <script>tinymce.init({ selector: 'textarea' });</script>
+    <link rel="shortcut icon" href="/images/logos.svg" type="image/x-icon">
+    <title>Add Movies</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="mt-4 mb-4 text-white text-center title">ADD MOVIE</h1>
+
+        <form action="/blogs" method="POST" enctype="multipart/form-data">
+            
+            <div class="form-group">
+                <label for="image" class="text-white">Upload image</label>
+                <input type="file" name="image" id="image" class="form-control-file text-white" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="title" class="text-white">Judul</label>
+                <input type="text" class="form-control" placeholder="Title" name="title" required>
+            </div>
+
+            <div class="form-group">
+                <label for="year" class="text-white">Tahun</label>
+                <input type="text" class="form-control" placeholder="Tahun" name="year" required>
+            </div>
+
+            <div class="form-group">
+                <label for="genre" class="text-white">Genre</label>
+                <input type="text" class="form-control" placeholder="Genre" name="genre" required>
+            </div>
+
+            <div class="form-group">
+                <label for="duration" class="text-white">Duration</label>
+                <input type="text" class="form-control" placeholder="Duration" name="duration" required>
+            </div>
+
+            <div class="form-group">
+                <label for="cast" class="text-white">Pemain</label>
+                <input type="text" class="form-control" placeholder="Pemain" name="cast" required>
+            </div>
+
+            <div class="form-group">
+                <label for="rate" class="text-white">Rating</label>
+                <input type="text" class="form-control" placeholder="Rating" name="rate" required>
+            </div>
+            <div class="form-group">
+
+                <label for="description" class="text-white">Description</label>
+                <textarea name="description" placeholder="Description" class="form-control"></textarea>
+            </div>
+
+            <div class="form-group">
+                <a href="/" class="btn btn-danger">Cancel</a>
+                <button type="submit" class="btn btn-primary">Save</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

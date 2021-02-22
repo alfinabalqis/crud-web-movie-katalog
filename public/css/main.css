@@ -1,0 +1,104 @@
+body {
+  background: #2c2c2c !important;
+}
+
+h1,h2,h5,p, .text-white, .form-group{
+  font-family: 'Inter', sans-serif;
+}
+
+.content-body h5{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: .25em !important;
+}
+
+.btnAdd{
+  margin-left: 2em !important;
+}
+
+.box-desc p{
+  margin-bottom: .5em !important;
+}
+
+h1.title{
+  font-weight: 900;
+  letter-spacing: 0.5em;
+  margin-top: 1em !important;
+}
+
+.head-title h1{
+  font-size: 50px;
+  margin-top: 0 !important;
+}
+
+.detail-show h1{
+  margin-top: .25em !important;
+  font-size: 30px !important;
+}
+
+img.star{
+  width: 22px;
+  height: 22px;
+}
+
+.title-card h1{
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: .5em !important;
+}
+
+.nav-sidebar{
+  font-size:30px;
+  cursor:pointer; 
+  color: white;
+  margin-top: 10em !important;
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+p.sub-title{
+  font-style: italic;
+}
+
+p.blank{
+  margin-left: 3em !important;
+}
+
+@media screen and (max-width: 800px) {
+  .btnAdd{
+    margin-left: -1em !important;
+  }  
+}

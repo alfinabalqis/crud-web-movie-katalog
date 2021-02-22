@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/images/logos.svg" type="image/x-icon">
+    <title>Moofie</title>
+
+</head>
+
+<body>
+    
+    <div class="container">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="row">
+                <a href="/" class="d-flex align-items-center text-white"><i
+                        class="material-icons mr-2">bookmark_border</i>
+                    List Movie</a>
+            </div>
+            <div class="row">
+                <a href="blogs/new" class="d-flex align-items-center text-white"><i
+                        class="material-icons mr-2">add_circle</i>
+                    New Movie</a>
+            </div>
+        </div>
+
+        <div class="mt-4 pt-4">
+            <span class="nav-sidebar" onclick="openNav()">&#9776;</span>
+        </div>
+        <div class="text-center head-title">
+            <h1 class="text-white text-center title">MOOFIE</h1>
+            <p class="sub-title text-white">“make your movie list here”</p>
+        </div>
+        <div class="row mb-3 btnAdd">
+            <a href="blogs/new" class="btn btn-success d-flex align-items-center text-white"><i
+                    class="material-icons mr-2">add_circle</i>
+                New Movie</a>
+        </div>
+
+        <div class="row">
+
+            <% if(blogs.length<1){%>
+            <p class="blank text-white mt-3">No posts yet, create a new one</p>
+            <%  } %>
+
+
+            <% blogs.forEach(blog=>{ %>
+            <div class="col-lg-5 card mt-3 mb-3 mx-auto">
+                <div class="row mt-2 mb-2">
+                    <div class="col-5 overflow-hidden">
+                        <img src="/uploads/images/<%= blog.img %>" class="card-img img-thumbnail" alt="..." style="width: min-content; height: 15em;">
+                    </div>
+                    <div class="col-7 content-body">
+                        <div class="d-flex align-items-start">
+                            <h5 class="w-100"><b> <%= blog.title %> </b></h5>
+                            <!-- display more button -->
+                            <div class="more position-relative" style="cursor: pointer;">
+                                <i class="material-icons p-2">more_vert</i>
+                                <!-- options list -->
+                                <div class="d-none options card rounded-pill shadow-sm p-1 position-absolute">
+                                    <a href="blogs/edit/<%= blog.id %> " class="rounded-circle p-2 mb-2"
+                                        style="background:blue;">
+                                        <i class="material-icons" style="color:white">create</i>
+                                    </a>
+                                    <form action="/blogs/<%=blog.id%>?_method=DELETE" method="POST">
+                                        <button class="rounded-circle p-2 bg-danger">
+                                            <i class="material-icons" style="color:white">delete</i>
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="align-self-stretch "><%= blog.snippet %>
+                        </span>
+                        <div class="d-flex align-items-end mt-2">
+                            <div class=" flex-grow-1 box-desc">
+                                <div class="rate">
+                                    <div class="d-flex">
+                                        <img src="/images/star.png" alt="" class="star mr-1">
+                                        <p><%= blog.rate%></p>
+                                    </div>
+                                </div>               
+                                <p class="font-weight-bold"><%= blog.year%></p>
+                                <p class="font-weight-bold"><%= blog.duration%> Menit</p>
+                                <a href="blogs/<%=blog.slug %> " class=" align-self-end">
+                                    <button class="btn btn-primary mt-2">Detail</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <% }) %>
+
+
+        </div>
+        <script src="/js/index.js"></script>
+
+</body>
+
+</html>

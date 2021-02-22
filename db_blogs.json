@@ -1,0 +1,85 @@
+[{
+  "_id": {
+    "$oid": "6033d74f4eaae50c988edeed"
+  },
+  "title": "After Met You",
+  "year": 2019,
+  "genre": "Drama Romantis",
+  "duration": 111,
+  "cast": "Ari Irham,Yoriko Angeline,Michelle Wanda dan lainnya",
+  "rate": 7.6,
+  "description": "<p><span style=\"color: #8e8e90; font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; font-size: 16.002px; background-color: #ffffff;\">Ari, cowok terkeren dan tertampan di sekolahnya yang ditantang taruhan oleh teman segenknya, The Daks untuk mencari pacar yang sudah pasti tidak tertarik sama Ari. Ara, gadis introvert dan pintar di sekolah, jadi sasaran Ari. Tanpa disadari ternyata Ara adalah anak dari produsernya sendiri sebagai DJ. Ari kaget karena semua pandangan Ara tentang dirinya. Ini membuat dia mempertanyakan dirinya sendiri. Azka, sahabat lama Ari, kemudian datang dan dekat dengan Ara. Ari yang berusaha menyembunyikan luka batin karena kondisi keluarganya, juga harus berusaha memenangkan hati Ara. Kebenaran tentang taruhan pun akhirnya terungkap,</span></p>",
+  "img": "1614010191471aftermetyou.jpg",
+  "slug": "after-met-you",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6033d7be4eaae50c988edeee"
+  },
+  "title": "Dear Nathan: Hello Salma",
+  "year": 2018,
+  "genre": "Film Adaptasi Buku",
+  "duration": 102,
+  "cast": "Jefri Nichol, Amanda Rawles, Devano Danendra dan lainnya",
+  "rate": 7.6,
+  "description": "<p><span style=\"color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">Tak ada yang lebih indah dalam hidup ini bagi Nathan dan Salma selain cinta mereka berdua. Sayangnya, ayah Salma melarang hubungan mereka dan menjodohkan Salma dengan Ridho. Ditambah lagi, aksi Nathan memukul seorang siswa, menimbulkan kesalahpahaman antara Nathan dan Salma, yang pada akhirnya Nathan harus pindah sekolah dan Salma pun memutuskan hubungannya dengan Nathan. Nathan dan Salma berusaha melupakan cinta mereka. Di sekolah baru, Nathan dekat dengan Rebeca, siswi bermasalah yang jatuh cinta kepada Nathan. Sementara Salma merasa sangat tertekan dari ayahnya atas kegagalan Salma masuk UI. Salma bertemu Rebeca yang membantunya keluar dari masa-masa frustasi. Pertemuannya dengan Rebeca mempertemukan lagi Salma dengan Nathan, cinta yang belum bisa dia lupakan. Bisakah Nathan kembali cintanya dengan Salma?.</span></p>",
+  "img": "1614010302585dnhs.jpg",
+  "slug": "dear-nathan-hello-salma",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6033d88c4eaae50c988edeef"
+  },
+  "title": "Matt & Mou",
+  "year": 2019,
+  "genre": "Drama Romantis, Film Adaptasi Buku",
+  "duration": 96,
+  "cast": "Prilly Latuconsina, Maxime Bouttier, Irsyadillah dan lainnya",
+  "rate": 8.1,
+  "description": "<p><span style=\"background-color: #ffffff; color: #202122; font-family: sans-serif; font-size: 14px;\">Berkisah tentang persahabatan Matthew (Maxime Bouttier</span><span style=\"background-color: #ffffff; color: #202122; font-family: sans-serif; font-size: 14px;\">) dan Mouretta (Prilly Latuconsina</span><span style=\"background-color: #ffffff; color: #202122; font-family: sans-serif; font-size: 14px;\">), keduanya sudah berteman sejak kecil. Matt &amp; Mou memiliki sifat yang bertolak belakang. </span>Matt yang cuek, pendiam dan jutek, sedangkan Mou, ceria dan heboh. Seiring dengan bertambahnya usia mereka, timbul perasaan yang berbeda. Sebuah pertemanan yang tampak platonik diuji saat seorang anak SMA ingin sahabat baiknya menyetujui hubungan asmara barunya dengan seorang musisi lokal (Irsyadillah).</p>",
+  "img": "1614010507002mattmou.jpg",
+  "slug": "matt-and-mou",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6033d8fe4eaae50c988edef0"
+  },
+  "title": "Melodylan",
+  "year": 2019,
+  "genre": "Drama Romantis",
+  "duration": 92,
+  "cast": " Devano Danendra, Aisya Aqilah, Angga Yunanda dan lainnya",
+  "rate": 6.2,
+  "description": "<p style=\"margin: 0.5em 0px; color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">Melody yang pindah sekolah karena dia sedang menghindari setiap masalah yang terjadi di dalam hidupnya, apalagi Melody memilik masa lalu yang buruk dengan David mantan kekasihnya. Tetapi di sekolah baru, masalah kembali muncul saat Melody mengenal Dylan cowok yang selama ini terkenal cool, suka bikin masalah namun tetap menjadi idola di sekolah barunya Melody karena kegantengannya. Kabar kedekatan Melody dan Dylan didengar oleh Bella gadis cantik yang selama ini dianggap paling dekat dengan Dylan. Kabar itu juga membuat Bianca si biang onar sekolah menjadi kelabakan karena dia sendiri tak pernah bisa mendekati Dylan.</p>\r\n<p style=\"margin: 0.5em 0px; color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">Melody semakin galau saat perkenalannya dengan Dylan memang benar-benar selalu menimbulkan masalah. Banyak yang cemburu dan banyak yang tidak suka dengan Melody si gadis baru. Melody berusaha menghindari Dylan dengan mendekatkan diri pada Fathur.</p>",
+  "img": "1614010622745melodylan.jpg",
+  "slug": "melodylan",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6033da314eaae50c988edef1"
+  },
+  "title": "Seperti Hujan Yang Jatuh Ke Bumi",
+  "year": 2020,
+  "genre": "Remaja,  Adaptasi Buku, Drama, Romantis, Drama Romantis",
+  "duration": 86,
+  "cast": "Jefri Nichol, Aurora Ribero, Axel Matthew dan lainnya",
+  "rate": 4.7,
+  "description": "<p style=\"margin: 0.5em 0px; color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">Film ini mengisahkan tentang cinta segitiga antara Kevin (Jefri Nichol), Nara (Aurora Ribero) dan Juned (Axel Matthew Thomas). Kevin dan Nara adalah sahabat sejak kecil, meski saling menyayangi, mereka berjanji untuk selalu menjadi Best Friend Forever. Kevin ternyata menyimpan rasa lebih dari seorang sahabat, tidak pernah berani menyatakan perasaannya kepada Nara. Malah Kevin lebih sering menemani Nara melalui masa - masa sulit saat percintaannya gagal. Ketika Nara jatuh cinta kepada Juned, cowo panjat tebing yang misterius, Kevin merasa tidak ada lagi harapan baginya untuk bisa bersama Nara selamanya. Manusia hanya bisa berencana, namun Tuhan yang menentukan, apakah Kevin dan Nara bisa disatukan? Atau keduanya memilih jalannya masing - masing?</p>",
+  "img": "1614010929007Seperti_Hujan_yang_Jatuh_ke_Bumi_(poster).jpeg",
+  "slug": "seperti-hujan-yang-jatuh-ke-bumi",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6033da8a4eaae50c988edef2"
+  },
+  "title": "The Way I Love You",
+  "year": 2019,
+  "genre": "Drama Romantis",
+  "duration": 94,
+  "cast": "Syifa Hadju, Rizky Nazar, Tissa Biani dan lainnya",
+  "rate": 7.6,
+  "description": "<p style=\"margin: 0.5em 0px; color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">Senja tak tahu siapa laki-laki bernama BadBoy yang sering chatting dengannya di Blog. Tapi satu yang pasti, Senja selalu tersenyum mengingat pembicaraan mereka. Ini kah yang namanya jatuh cinta? Senja tak pernah merasakannya. Nah, kalau rasa kesal Senja tau artinya. Bara adalah cowok paling menyebalkan di sekolah sekaligus gebetan sepupu Senja. Dia sombong, sok tau, dan sok cool. Senja hanya bisa berharap sepupunya cepat sadar. Cinta seharusnya tak membuatmu segila itu.</p>\r\n<p style=\"margin: 0.5em 0px; color: #202122; font-family: sans-serif; font-size: 14px; background-color: #ffffff;\">Saat Senja bertemu dengan sosok dibalik BadBoy, Rasya, ia pun mengerti segala kegilaan yang bisa terjadi atas nama cinta. Dari menyelinap keluar rumah demi ketemuan, sampai pura-pura tertabrak demi berdekatan. Namun semakin dekat dengan Rasya, Senja mulai bertanya-tanya. Mengapa perasaannya berbeda saat bicara dengan BadBoy di layar dan dengan Rasya di dunia nyata? Apa mungkin diri kita di dunia maya tidak selalu sama dengan kenyataan? Senja pun berusaha mencari tahu.<sup id=\"cite_ref-sino_1-0\" class=\"reference\" style=\"line-height: 1; unicode-bidi: isolate; white-space: nowrap; font-size: 11.2px;\"><a style=\"text-decoration-line: none; color: #0645ad; background: none;\" href=\"https://id.wikipedia.org/wiki/The_Way_I_Love_You_(film)#cite_note-sino-1\">[1]</a></sup></p>",
+  "img": "1614011018927theway.jpg",
+  "slug": "the-way-i-love-you",
+  "__v": 0
+}]
